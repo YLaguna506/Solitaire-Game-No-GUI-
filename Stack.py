@@ -32,5 +32,8 @@ class Stack:
     def setCardCounter_min1(self):
         self.card_counter -= 1
 
+    def setCardCounter_plus1(self):
+        self.card_counter += 1
+
     def getColor(self):
         return self.getColor()
