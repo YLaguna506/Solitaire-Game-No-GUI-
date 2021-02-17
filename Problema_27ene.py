@@ -109,4 +109,6 @@ cardImage = Image(Point(550,500), getPicture(cardSelected))
 card = Card(rank, suit, win, Rectangle(Point(450, 310), Point(480, 340)), cardImage)
 
 print("Click screen to quit")
+cardImage.draw(win)
 win.getMouse()
+
