@@ -21,11 +21,6 @@ class Stack:
     def setCard(self, card, index):
         self.Cards[index] = card
 
-    def getBotcard_color(self):
-        for i in range(self.card_counter):
-            if self.Cards.getCard(i) == str:
-                return self.Cards.getCard(i).getColor()
-
     def getCardCounter(self):
         return self.card_counter
 
