@@ -17,6 +17,9 @@ class Deck:
                 self.Cards.append(Card(i - 25, 'C'))
             if 39 <= i <= 51:
                 self.Cards.append(Card(i - 38, 'S'))
+    
+    def getPicture_card(self,index):
+        return self.Cards[index].getPicture()
 
     def shuffle(self):
         for i in range(1000):
