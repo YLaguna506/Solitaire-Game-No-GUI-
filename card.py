@@ -61,27 +61,27 @@ class Card:
             # return '{} {}'.format("King of", self.getLetter())
         else:
             return "[--]"
+        
+        
+    def getPicture(self):  # return string of picture
 
-
-def getPicture(card):  # return string of picture
-
-    if card.getRank() == 1:
-        png_name = "A" + card.getSuit() + ".png"
-        png_name.replace(" ", "")
-        return png_name
-    elif 1 < card.getRank() <= 10:
-        png_name = str(card.getRank()) + card.getSuit() + ".png"
-        png_name.replace(" ", "")
-        return png_name
-    elif card.getRank() == 11:
-        png_name = "J" + card.getSuit() + ".png"
-        png_name.replace(" ", "")
-        return png_name
-    elif card.getRank() == 12:
-        png_name = "Q" + card.getSuit() + ".png"
-        png_name.replace(" ", "")
-        return png_name
-    elif card.getRank() == 13:
-        png_name = "K" + card.getSuit() + ".png"
-        png_name.replace(" ", "")
-        return png_nam
+        if self.getRank() == 1:
+            png_name = "A" + self.getSuit() + ".png"
+            png_name.replace(" ", "")
+            return png_name
+        elif 1 < self.getRank() <= 10:
+            png_name = str(self.getRank()) + self.getSuit() + ".png"
+            png_name.replace(" ", "")
+            return png_name
+        elif self.getRank() == 11:
+            png_name = "J" + self.getSuit() + ".png"
+            png_name.replace(" ", "")
+            return png_name
+        elif self.getRank() == 12:
+            png_name = "Q" + self.getSuit() + ".png"
+            png_name.replace(" ", "")
+            return png_name
+        elif self.getRank() == 13:
+            png_name = "K" + self.getSuit() + ".png"
+            png_name.replace(" ", "")
+            return png_name
