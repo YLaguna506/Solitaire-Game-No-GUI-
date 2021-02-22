@@ -22,3 +22,13 @@ El programa todavia tiene errores en el input, si es que no se entran 2 valores.
 Hay errores si mueves columna de cartas entre el tableau, y esta vacia un stack. 
 Falta el GUI.
 
+REGLAS PARA EL SCORE:
+Waste to Tableau	5
+Waste to Foundation	10
+Tableau to Foundation	10
+Turn over Tableau card	5
+Foundation to Tableau	−15
+Recycle waste when playing by ones	−100 (minimum score is 0)
+
+REGLA DE EL WASTE ESCOGIDA:
+Turning one card at a time to the waste, with no limit on passes through the deck.
