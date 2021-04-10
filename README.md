@@ -1,12 +1,6 @@
 # Solitaire-Game-Project-In-Progress-
 Solitaire Game Project *In Progress*
 
-Yael
-Kimberly 
-Daniel
-
-Grupo 5
-
 Por ahora tiene clase deck, clase stack, clase card, clasee Foundation y programa principal en solitaire app
 
 La clase deck tiene un array de clase card de 52, lo crea por completo con las cartas correspondientes al crear el objeto
