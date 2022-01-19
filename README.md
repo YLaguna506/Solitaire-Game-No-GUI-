@@ -1,5 +1,5 @@
-# Solitaire-Game-Project-In-Progress-
-Solitaire Game Project *In Progress*
+# Python-Solitaire-Game-Project
+Solitaire Game Project 
 
 Por ahora tiene clase deck, clase stack, clase card, clasee Foundation y programa principal en solitaire app
 
