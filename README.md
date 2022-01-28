@@ -1,4 +1,5 @@
-# Python-Solitaire-Game-Project
+Final project for python class.
+
 Solitaire Game Project 
 
 Por ahora tiene clase deck, clase stack, clase card, clasee Foundation y programa principal en Solitaireapp.
