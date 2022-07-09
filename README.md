@@ -2,21 +2,21 @@ Final project for python class.
 
 Solitaire Game Project 
 
-Por ahora tiene clase deck, clase stack, clase card, clasee Foundation y programa principal en Solitaireapp.
+It has deck class, stack class, card class, Foundation class and main program in Solitaireapp.
 
-La clase deck tiene un array de clase card de 52, lo crea por completo con las cartas correspondientes al crear el objeto
-se creo funcion shuffle para que nunca tengan el mismo orden.
+The deck class has a card class array of 52, it creates it entirely with the corresponding cards. When creating the object, the
+shuffle function executes.  This function shuffles the deck so that they never have the same order.
 
-Se creo clase stack para crear los stacks 1 - 7, o el Tableau 
-Los stacks contienen un array de clase card mas strings vacios, esto se hizo para usar el print que se uso.
-Por esto se incluyo counter de cartas en la clase de stack.
+Stack class was created to create stacks 1 - 7, or the Tableau.
+The stacks contain an array of card class plus empty strings, this was done to use the print that was used.
+This is why card counter is included in the stack class.
 
-El programa principal se encuentra en Solitaireapp.
+The main program is found in Solitaireapp.
 
-El programa todavia tiene errores en el input, si es que no se entran 2 valores. 
-Hay errores si mueves columna de cartas entre el tableau, y esta vacia un stack.
+The program still has input errors, if  exactly 2 values are not entered.
+There are bugs if you move a column of cards between the tableau and an empty stack.
 
-REGLAS PARA EL SCORE:
+RULES FOR THE SCORE:
 Waste to Tableau	5
 Waste to Foundation	10
 Tableau to Foundation	10
@@ -25,5 +25,5 @@ Foundation to Tableau	−15
 Recycle waste when playing by ones	−100 
 (minimum score is 0)
 
-REGLA DE EL WASTE ESCOGIDA:
+SELECTED WASTE RULE:
 Turning one card at a time to the waste, with no limit on passes through the deck.
