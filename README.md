@@ -27,3 +27,5 @@ Recycle waste when playing by ones	−100
 
 SELECTED WASTE RULE:
 Turning one card at a time to the waste, with no limit on passes through the deck.
+
+![soli1](https://user-images.githubusercontent.com/77646834/178113043-05e39615-c7d7-4785-a15b-fa3745fc9ea7.PNG)
